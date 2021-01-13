@@ -1,5 +1,6 @@
 import React from 'react'
 import CIcon from '@coreui/icons-react'
+import { FaChartBar, FaSmile } from "react-icons/fa";
 
 
 const _nav =  [
@@ -7,7 +8,7 @@ const _nav =  [
     _tag: 'CSidebarNavItem',
     name: 'Dashboard',
     to: '/dashboard',
-    icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+    icon: <FaChartBar className="c-sidebar-nav-icon"/>,
     badge: {
       color: 'info',
       text: 'NEW',
@@ -21,7 +22,7 @@ const _nav =  [
     _tag: 'CSidebarNavItem',
     name: 'Colors',
     to: '/test/colors',
-    icon:<CIcon name={'cilSettings'} customClasses="c-sidebar-nav-icon"/>,
+    icon:<FaSmile className="c-sidebar-nav-icon"/>,
   },
   {
     _tag: 'CSidebarNavItem',

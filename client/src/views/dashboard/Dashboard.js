@@ -259,7 +259,7 @@ const Dashboard = () => {
                   </div>
                   <div className="progress-group mb-5">
                     <div className="progress-group-header">
-                      <CIcon className="progress-group-icon" name="cil-user-female" />
+                      <CIcon className="progress-group-icon" name={"cil-action-redo"} />
                       <span className="title">Female</span>
                       <span className="ml-auto font-weight-bold">37%</span>
                     </div>
